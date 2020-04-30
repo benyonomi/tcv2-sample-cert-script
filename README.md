@@ -30,7 +30,7 @@ drwxr-xr-x  7 ben  staff   224B Apr 30 18:01 device-2020-04-30-18-01-41
 
 While running the script, you will be given the necessary information to register the CA with ThinCloud For example:
 
-```bash
+```
 ################################################################
     The two certificates below are used when registering 
     a new ThinCloud CA in the Console (Settings->IoT CA->Create)
@@ -57,7 +57,7 @@ MIIDAzCC********************************************************
 ```
 
 You will also be given the device specific information at the end. For example:
-```bash
+```
 ################################################################
     Here are the files for connecting your device to ThinCloud:
     Client Key: certs/device-2020-04-30-18-01-41/deviceCert.key
