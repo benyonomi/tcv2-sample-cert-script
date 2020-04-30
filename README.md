@@ -18,7 +18,7 @@ Run the following driver script to do all 3 functions
 ```bash
 /bin/bash createCAandDeviceCert.sh
 ```
-A certs directory will be created with 3 subfolders:
+A certs directory will be created with 3 subfolders. For example:
 ```bash
 drwxr-xr-x  9 ben  staff   288B Apr 30 18:01 customCA
 drwxr-xr-x  3 ben  staff    96B Apr 30 18:01 AmazonCA
