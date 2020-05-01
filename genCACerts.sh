@@ -57,7 +57,7 @@ printout "Creating CA Certificate"
 openssl x509 \
   -req \
   -days 3650 \
-  -extensions "basicConstraints=CA:TRUE" \
+  -extfile <(printf "basicConstraints=CA:TRUE") \
   -in certs/customCA/sampleCACertificate.csr \
   -signkey certs/customCA/sampleCACertificate.key \
   -out certs/customCA/sampleCACertificate.pem
